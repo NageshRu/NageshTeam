@@ -1,0 +1,302 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sofia-pro, sans-serif;
+    background-color: #333;
+    color: white;
+  
+    
+  }
+  .bg-image
+  {
+    
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), transparent 18%, transparent 70%, rgba(0, 0, 0, 0.2)), url('../images/david-marcu-78A265wPiO4-unsplash.jpg');
+    height: 100vh;
+    max-height: 640px;
+    min-height: 0px;
+
+  /* Center and scale the image nicely */
+  background-position: 0px 0px, 50% 70%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+  margin-bottom: 59px;
+  
+  }
+  .content
+  {
+      margin-left: 100px;
+      max-width: 840px;
+      position: absolute;
+      margin-top: 5%;
+      width: 41%;
+  }
+  .content span
+  {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  .content h1
+  {
+    font-size: 72px;
+    line-height: 80px;
+    font-weight: 600;
+    margin-top: 50px;
+    margin-bottom: 41px;
+  }
+  .content p
+  {
+    margin-top: 0px;
+    margin-bottom: 36px;
+    color: #fff;
+    font-size: 28px;
+    line-height: 44px;
+    font-weight: 500;
+  }
+  .grid
+  {
+    margin-top: 20px;
+    width: auto;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 90px;
+   
+  }
+  .box1
+  {
+    max-height: 900px;
+    width: 400px;
+    height: 100%;
+    background-color:transparent;
+    margin-right: 5px;
+    margin-left: 10px;
+    background-color: whitesmoke;
+    position: relative;
+    
+  }
+  .box1 img
+  {
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
+  }
+  .pop img
+  {
+    width: 84px;
+    height: 84px;
+    object-fit: cover;
+    position: absolute;
+    border-radius: 50%;
+    top: 376;
+  }
+  .box1 h1
+  {
+    color: black;
+    position: absolute;
+    top: 460;
+    margin-left: 10px;
+  }
+  .box1 p
+  {
+    color: black;
+    position: absolute;
+    top:500;
+    padding-left: 7px;
+  }
+  .txt2
+{
+    text-align: center;
+    font-size: 52px;
+    line-height: 60px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.grid2
+{
+    max-width: 100%;
+    max-height: 468px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+      
+}
+.img1
+{
+    width: 425px;
+    height: 468px;
+    margin-right: 25px;
+    display: inline-block;
+    background-image: url("../images/thomas-kelley-JoH60FhTp50-unsplash.jpg");
+    background-size: 425px 468px;
+    font-size: 53px;
+    
+   
+}
+.img2
+{
+    margin-right: 25px;
+    width: 425px;
+    height: 468px;
+    display: inline-block;
+    background-image: url("../images/dan-senior-LTbu545FSIo-unsplash.jpg");
+    background-size: 425px 468px;
+    font-size: 53px;
+    
+    
+}
+.img3
+{
+    margin-right: 25px;
+    width: 425px;
+    height: 468px;
+    display: inline-block;
+    background-image: url("../images/pars-sahin-mjQpWnLzKD0-unsplash.jpg");
+    background-size: 425px 468px;
+    font-size: 53px; 
+}
+.img1 p,.img2 p,.img3 p
+{
+    top: 295px;
+    position: relative;
+    margin-left: 15px;
+}
+.grid3
+{
+    
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.2), transparent 18%, transparent 70%, rgba(0, 0, 0, 0.2)), url('../images/haseeb-jamil-3s85IxVDyXE-unsplash.jpg');
+    height: 100vh;
+    max-height: 640px;
+    min-height: 0px;
+
+  /* Center and scale the image nicely */
+  background-position: 0px 0px, 50% 70%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+  
+}
+.content1 h2
+{
+    font-size: 52px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+.content1 p
+{
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    position: relative;
+    top:80px;
+}
+.btn-try1
+{
+  width: 150px;
+    display: inline-block;
+    color: whitesmoke;
+    padding-left: 10px;
+    background-color: #6eb800;
+    padding: 22px 24px 22px 0;
+    text-align: center;   
+    text-decoration: none;
+    transition: all 0.5s;
+    cursor: pointer; 
+    position: relative;
+    margin: 115px 0px 0px 700px;
+}
+.btn-try1:after
+{
+  content: '»';
+  position: absolute;
+  opacity: 0;  
+  top: 14px;
+  right: -20px;
+  transition: 0.5s;
+}
+.btn-try1:hover
+{
+    padding-right: 24px;
+    padding-left:8px;
+    
+}
+.btn-try1:hover::after
+{
+    opacity: 1;
+    right: 10px;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #000000;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col ul li{
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	
+}
+
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+.footer-col .social-links a i{
+    line-height: 40px;
+}
+ 
+  
